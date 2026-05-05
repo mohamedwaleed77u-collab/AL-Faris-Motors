@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFARIS MOTORS - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ALFARIS MOTORS</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="car-details.html">Details</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeButton" class="theme-button">Dark Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h2>Login</h2>
+            <p>Login to your ALFARIS MOTORS account.</p>
+        </section>
+
+        <section class="form-section">
+            <form id="loginForm" novalidate>
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail">
+                <p class="error" id="loginEmailError"></p>
+
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword">
+                <p class="error" id="loginPasswordError"></p>
+
+                <button type="submit" class="main-button">Login</button>
+                <p class="success" id="loginSuccess"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ALFARIS MOTORS. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

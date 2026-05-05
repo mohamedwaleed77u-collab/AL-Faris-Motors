@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFARIS MOTORS - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ALFARIS MOTORS</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="car-details.html">Details</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="themeButton" class="theme-button">Dark Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h2>Register</h2>
+            <p>Create a simple customer account.</p>
+        </section>
+
+        <section class="form-section">
+            <form id="registerForm" novalidate>
+                <label for="registerName">Full Name</label>
+                <input type="text" id="registerName">
+                <p class="error" id="registerNameError"></p>
+
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail">
+                <p class="error" id="registerEmailError"></p>
+
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword">
+                <p class="error" id="registerPasswordError"></p>
+
+                <button type="submit" class="main-button">Register</button>
+                <p class="success" id="registerSuccess"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ALFARIS MOTORS. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
